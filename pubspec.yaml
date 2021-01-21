@@ -1,0 +1,36 @@
+name: foodapp
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  font_awesome_flutter: ^8.11.0
+  provider: ^4.3.2+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/signin/
+    - assets/images/menus/
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+         - asset: assets/fonts/Roboto-Regular.ttf
+    - family: Montserrat
+      fonts:
+         - asset: assets/fonts/Montserrat-Regular.ttf
